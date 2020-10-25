@@ -1,0 +1,2 @@
+rootProject.name='ListIn'
+include ':app'

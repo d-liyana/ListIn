@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ListIn</string>
+    <string name="slogan">List your monthly item list with us.</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clear">Clear List</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_sign_out">Logout</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="popular_categories">Popular Categories</string>
+    <string name="best_deals">Best Deeals</string>
+    <string name="menu_menu">Categories</string>
+    <string name="menu_item_list">Item List</string>
+    <string name="menu_item_detail">Item Detail</string>
+    <string name="menu_list">List</string>
+    <string name="menu_view_orders">View Orders</string>
+    <string name="size">Size</string>
+
+
+    <string name="full_name">full name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="phone">phone</string>
+    <string name="register">Register</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email or Phone Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

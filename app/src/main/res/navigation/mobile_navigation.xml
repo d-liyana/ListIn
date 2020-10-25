@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.dinu.listin.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.dinu.listin.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.dinu.listin.ui.menu.MenuFragment"
+        android:label="@string/menu_menu"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/nav_item_list"
+        android:name="com.dinu.listin.ui.itemlist.ItemListFragment"
+        android:label="@string/menu_item_list"
+        tools:layout="@layout/fragment_item_list" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.dinu.listin.ui.list.ListFragment"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_item_details"
+        android:name="com.dinu.listin.ui.itemdetail.ItemDetailFragment"
+        android:label="@string/menu_item_detail"
+        tools:layout="@layout/fragment_item_detail" />
+
+    <fragment
+        android:id="@+id/nav_view_orders"
+        android:name="com.dinu.listin.ui.viewOrders.ViewOrdersFragment"
+        android:label="@string/menu_view_orders"
+        tools:layout="@layout/fragment_view_order" />
+
+</navigation>
